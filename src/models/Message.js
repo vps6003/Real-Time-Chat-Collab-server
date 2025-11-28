@@ -19,7 +19,7 @@ const messageSchema = new Schema(
     },
 
     // Room / channel (optional if you support DMs)
-    room: {
+    roomId: {
       type: Schema.Types.ObjectId,
       ref: "Room",
       required: true,
